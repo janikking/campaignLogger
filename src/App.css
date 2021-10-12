@@ -1,0 +1,123 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.headBarItem {
+    height: 75%;
+    width: 75%;
+    background-color: grey;
+    align-content: center;
+    text-align: center;
+    padding: 2%;
+    margin: 5%;
+    box-sizing: content-box;
+}
+
+.headBar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    display: inline-grid;
+    grid: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr/ 90% ;
+    text-align: center;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.headBar a {
+    padding: 20px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    box-sizing: content-box;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.headBar a:hover {
+    color: #f1f1f1;
+}
+
+.headBar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 36px;
+    margin-left: 36px;
+}
+
+.mainPage {
+    height: 100%;
+    width: 100%;
+    display: inline-grid;
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+}
+
+.navList div a {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.head {
+    float: left;
+    width: 100vw;
+    height: 8vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    color: cornflowerblue;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.App {
+    max-height: 99vmin;
+    max-width: 99vmin;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: inline-grid;
+    grid-template-rows: 1fr;
+
+}
+.formquestions{
+    display: inline-grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: #f1f1f1;
+
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    border-style: solid;
+    border-color: black;
+}
+
+lable{
+    padding: 30px;
+    margin: 10px;
+}
